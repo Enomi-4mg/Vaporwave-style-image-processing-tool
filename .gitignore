@@ -1,6 +1,7 @@
 # Visual Studio の一時ファイル
 .vs/
-[Bb]in/
+[Bb]in/*
+![Bb]in/data/
 [Oo]bj/
 *.user
 *.suo
@@ -46,3 +47,12 @@
 
 # debug information files
 *.dwo
+
+# openFrameworks specific
+*.aps
+*.rc
+dll/
+
+# OS files
+.DS_Store
+Thumbs.db
